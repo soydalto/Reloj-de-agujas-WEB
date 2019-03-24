@@ -1,0 +1,59 @@
+.reloj {
+	padding: 100px;
+	background-image: url("gis.jpg");
+	width: 350px;
+	height: 350px;
+	border-radius: 370px;
+	background-color: #ededed;
+	background-size: 100%;
+	border: 14px solid #555;
+	display: flex;
+	margin: auto;
+}
+
+body {
+	background-color: #ededed;;
+	font-family: Century Gothic
+}
+
+
+.reloj img {
+	position: relative;
+	height: 350px;
+	transition: all 0.5s
+}
+
+
+.reloj #minutos   {
+	position: absolute;
+}
+.reloj #segundos {
+	position: absolute;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex .contenido {
+	background-color: #fff;
+	box-shadow: 0px 0px 20px #ccc;
+	margin: 22px;
+	padding: 32px;
+	flex: 4 4;
+}
+.flex .contenido:first-child {
+	flex: 5 5;
+}
+
+
+.contenido p {
+	font-size: 70px;
+	color: #333;
+	text-align: center;
+}
+.contenido h4 {
+	font-size: 80px;
+	color: #333;
+	text-align: center;
+}
